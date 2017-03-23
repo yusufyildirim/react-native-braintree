@@ -1,0 +1,26 @@
+
+{
+  "name": "react-native-xbraintree",
+  "version": "0.0.1",
+  "description": "React Native Braintree Drop-in Payment UI Library for iOS and Android",
+  "nativePackage": true,
+  "bugs": {
+    "url": "https://github.com/yusufyildirim/react-native-braintree/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yusufyildirim/react-native-braintree.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "Yusuf YILDIRIM <yusuf@puroduction.com> (http://www.puroduction.com)",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": ">=0.41.2"
+  }
+}
