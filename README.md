@@ -1,5 +1,8 @@
 
-# react-native-braintree
+# React Native Braintree Drop-in UI
+
+![Braintree Drop-in UI Gif](https://raw.githubusercontent.com/yusufyildirim/react-native-braintree/develop/drop-in-ui.gif)
+
 
 ## Getting started
 
