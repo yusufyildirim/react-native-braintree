@@ -1,11 +1,12 @@
 
-#if __has_include("RCTBridgeModule.h")
-#import "RCTBridgeModule.h"
+/*#if __has_include("RCTBridge.h")
+#import "RCTBridge.h"
 #else
-#import <React/RCTBridgeModule.h>
-#endif
+#import <React/RCTBridge.h>
+#endif*/
+
+#import "RCTRootView.h"
 
 @interface RNBraintree : NSObject <RCTBridgeModule>
 
 @end
-  

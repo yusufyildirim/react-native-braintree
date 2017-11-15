@@ -1,0 +1,5 @@
+platform :ios, ‘9.0'
+target 'RNBraintree'
+
+pod 'React'
+pod 'BraintreeDropIn'
