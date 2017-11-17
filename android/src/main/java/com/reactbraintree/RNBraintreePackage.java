@@ -1,5 +1,5 @@
 
-package com.reactlibrary;
+package com.reactbraintree;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -14,11 +14,6 @@ public class RNBraintreePackage implements ReactPackage {
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
       return Arrays.<NativeModule>asList(new RNBraintreeModule(reactContext));
-    }
-
-    @Override
-    public List<Class<? extends JavaScriptModule>> createJSModules() {
-      return Collections.emptyList();
     }
 
     @Override

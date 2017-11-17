@@ -6,19 +6,17 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                   RNBraintree
                    DESC
-  s.homepage     = ""
+  s.homepage     = "https://www.example.com"
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "author" => "author@domain.cn" }
-  s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/author/RNBraintree.git", :tag => "master" }
+  s.platform     = :ios, "8.0"
+  
   s.source_files  = "RNBraintree/**/*.{h,m}"
   s.requires_arc = true
 
 
   s.dependency "React"
-  #s.dependency "others"
+  #s.dependency "BraintreeDropIn"
 
 end
-
-  
